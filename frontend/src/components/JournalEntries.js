@@ -22,7 +22,7 @@ const JournalEntries = ({ userId }) => {
   
       if (translate) {
         // Translate the description if 'translate' flag is set to true
-        const apiKey = 'AIzaSyC0pxNDgmVDfVOzJcMOdwQyIYzEu5a9KSU';
+        const apiKey = '<<insert_key_here>>';
         const response = await axios.post(
           `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`,
           {
